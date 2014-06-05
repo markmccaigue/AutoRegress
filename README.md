@@ -29,7 +29,7 @@ Assert.IsTrue(isUnchanged);
 Wrappers
 --
 
-AutoRegress caches the serialised result of all public declared nullary instance methods, so for more complicated scenarios you can create wrapper classes around your object to document your test cases and perform transformations.
+AutoRegress caches the serialised result of all public declared nullary instance methods, so for more complicated scenarios you can create wrapper classes around your objects to document your test cases and perform transformations.
 
 ```js
 public class ControllerWrapper
