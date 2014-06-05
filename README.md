@@ -3,7 +3,7 @@ AutoRegress
 
 A tiny library for automating system regression tests.
 
->Write tests cases, not tests.
+>Write test cases, not tests.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/tyhd3gey5oe4eq87)](https://ci.appveyor.com/project/MarkMcCaigue/autoregress)
 
@@ -15,7 +15,7 @@ Usage
 ```js
 using AutoRegress;
 
-// When then class is done
+// When the class is done
 var foo  = new Foo();
 Tester.StoreStateForClass(foo);
 
